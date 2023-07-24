@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Data Aos -->
+    <link rel="stylesheet" href="../../node_modules/aos/dist/aos.css">
+    <script src="../../node_modules/aos/dist/aos.js"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Blog Section -->
+    <section id="blog" class="vh-100">
+      <nav class="navbar navbar-expand-lg mx-5 py-5>
+        <div class="container">
+          <a
+            href="#home"
+            class="navbar-brand ms-4 d-flex align-items-center order-lg-0"
+          >
+            <h1 class="fw-bolder fs-1">team</h1>
+            <span class="fw-bolder fs-1 mb-2">.</span>
+          </a>
+
+          <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <i class="bi bi-list fs-1 text-black"></i>
+          </button>
+
+          <div class="collapse navbar-collapse order-lg-1 position-relative">
+            <ul class="navbar-nav mx-auto text-center position-absolute start-50">
+              <li class="nav-item-b px-2 py 2"><a href="landing_page.html" class="nav-link fs-5 fw-light">Home</a></li>
+              <li class="nav-item-b px-2 py 2"><a href="#" class="nav-link fs-5 fw-light">Blog</a></li>
+              <li class="nav-item-b px-2 py 2"><a href="#" class="nav-link fs-5 fw-light">Support</a></li>
+              <li class="nav-item-b px-2 py 2"><a href="#" class="nav-link fs-5 fw-light">Log In</a></li>
+              <button type="button" class="btn nav-btn focus-ring fs-5 fw-light px-4" >
+                Get Access
+              </button>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container p-4 ">
+        <div class="m-5 text-black" data-aos="fade-right" data-aos-duration="800">
+          <h1 class="fw-bolder">Blog</h1>
+          <p class="fw-light">Open-source threaded team chat that helps teams stay productive and focused.</p>
+        </div>
+
+        <div id="cardRow" class="row gap-3 m-auto justify-content-center" data-aos="fade-up" data-aos-duration="1000"></div>
+      </div>
+
+      <div class="row justify-content-center align-content-center w-25 mx-auto mb-5">
+        <button type="button" id="next-btn" class="btn page-btn d-block w-75 m-3">Next</button>
+        <button type="button" id="prev-btn" class="btn page-btn d-none w-75 m-3">Previous</button>
+      </div>
+
+      <!-- Footer -->
+      <footer class="py-5">
+        <div class="container">
+          <div class="row text-white g-4">
+          <div class="col-md-3 col-lg-3 order-first">
+              <a href="#home" class="footer-heading text-decoration-none d-flex">
+                <h1 class="fw-bolder fs-1 text-white">team<span class="fw-bolder fs-1">.</span></h1>
+              </a>
+                <p class="fs-normal fw-light m-0 text-white">Collaboration platform for mordern team </p>
+            </div>
+
+          <div class="col-md-3 col-lg-2 order-sm-2 order-md-1 order-lg-1">
+              <h5 class="footer-detail-heading fw-normal">Company</h5>
+              <ul class="list-unstyled fw-light">
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    Product 
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    Blog
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    Support
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-3 col-lg-2 order-sm-3 order-md-2 order-lg-2">
+              <h5 class="footer-detail-heading fw-normal">Features</h5>
+              <ul class="list-unstyled fw-light">
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    Screen Sharing
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    iOS and Android Apps 
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    File Sharing
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    User Management
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-3 col-lg-2 order-sm-4 order-md-3 order-lg-3">
+              <h5 class="footer-detail-heading fw-normal">Contact Us</h5>
+              <ul class="list-unstyled fw-light">
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    info@teamapp.com
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    1-800-200-300
+                  </a>
+                </li>
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    1010 Sunset Blv. Palo Alto, California
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-5 col-lg-3 order-sm-1 order-md-4 order-lg-4">
+              <h5 class="footer-detail-heading fw-normal">Stay up to date</h5>
+              <ul class="list-unstyled fw-light">
+                <li class="my-3">
+                  <a href="#" class="text-white text-decoration-none">
+                    Subscribe to our newseller
+                  </a>
+                </li>
+                <li class="email my-3">
+                  <input class=" p-2 rounded-2 w-100 me-3" type="email" name="email" id="emailInput" placeholder="Email">
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <p class="text-white m-0 fw-medium">
+            &copy; Copyright team inc.
+          </p>
+        </div>
+      </div>
+    </footer>
+      <!-- End of Footer -->
+    </section>
+
+    <!-- End of Blog Section -->
+
+    <!-- Js -->
+    <script type="module" src="../assets/js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Bootstrap js -->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "title": "Data exported by Team Cloud organization",
+      "description": "An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.",
+      "picture": "../assets/img/Blog/pic1.png",
+      "profile": "../assets/img/Blog/pp0.png",
+      "name": "Cameron Williamson",
+      "date": "July 1, 2023"
+    },
+    {
+      "id": 2,
+      "title": "Swap long video calls and emails for asynchronous video",
+      "description": "Meetings are essential for communication and team building, but they’re often unproductive. Asynchronous video to the rescue.",
+      "picture": "../assets/img/Blog/pic2.png",
+      "profile": "../assets/img/Blog/pp1.png",
+      "name": "Robert Fox",
+      "date": "June 21, 2023"
+    },
+    {
+      "id": 3,
+      "title": "Flexibility reigns: six key takeaways from Frontiers 2023",
+      "description": "An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.",
+      "picture": "../assets/img/Blog/pic3.png",
+      "profile": "../assets/img/Blog/pp2.png",
+      "name": "Jenny Wilson",
+      "date": "June 10, 2023"
+    },
+    {
+      "id": 4,
+      "title": "Team plus Sales Cloud: Your sales team’s new digital HQ",
+      "description": "An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.",
+      "picture": "../assets/img/Blog/pic4.png",
+      "profile": "../assets/img/Blog/pp3.png",
+      "name": "Kathryn Murphy",
+      "date": "May 11, 2023"
+    },
+    {
+      "id": 5,
+      "title": "What is digital culture?",
+      "description": "The teams best prepared for change use modern digital communication tools, feel comfortable learning new ones and continually adapt how they work.",
+      "picture": "../assets/img/Blog/pic5.png",
+      "profile": "../assets/img/Blog/pp4.png",
+      "name": "Devon Lane",
+      "date": "May 22, 2023"
+    },
+    {
+      "id": 6,
+      "title": "Steve Dotto’s top 10 tips for overcoming workplace hiccups",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic6.png",
+      "profile": "../assets/img/Blog/pp5.png",
+      "name": "Theresa Webb",
+      "date": "April 4, 2023"
+    },
+    {
+      "id": 7,
+      "title": "What’s new in Team: iPad updates, split-screen view and more",
+      "description": "An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.",
+      "picture": "../assets/img/Blog/pic7.png",
+      "profile": "../assets/img/Blog/pp5.png",
+      "name": "Eleanor Pena",
+      "date": "March 18, 2023"
+    },
+    {
+      "id": 8,
+      "title": "Drive more efficiency and cost savings with these updates to Workflow Builde",
+      "description": "An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.",
+      "picture": "../assets/img/Blog/pic8.png",
+      "profile": "../assets/img/Blog/pp6.png",
+      "name": "Jerome Bell",
+      "date": "February 12, 2023"
+    },
+    {
+      "id": 9,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic9.png",
+      "profile": "../assets/img/Blog/pp7.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 10,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic10.png",
+      "profile": "../assets/img/Blog/pp8.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 11,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic11.png",
+      "profile": "../assets/img/Blog/pp9.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 12,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic12.png",
+      "profile": "../assets/img/Blog/pp10.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 13,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic13.png",
+      "profile": "../assets/img/Blog/pp11.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 14,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic14.png",
+      "profile": "../assets/img/Blog/pp12.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 15,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic15.png",
+      "profile": "../assets/img/Blog/pp13.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 16,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic16.png",
+      "profile": "../assets/img/Blog/pp14.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 17,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic17.png",
+      "profile": "../assets/img/Blog/pp15.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    },
+    {
+      "id": 18,
+      "title": "7 tips to onboard sales reps with ease",
+      "description": "The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.",
+      "picture": "../assets/img/Blog/pic18.png",
+      "profile": "../assets/img/Blog/pp15.png",
+      "name": "Savannah Nguyen",
+      "date": "January 7, 2023"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Page</title>
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg mx-5 py-5>
+      <div class="container">
+        <a
+          href="#home"
+          class="navbar-brand ms-4 d-flex align-items-center order-lg-0"
+        >
+          <h1 class="fw-bolder fs-1">team</h1>
+          <span class="fw-bolder fs-1 mb-2">.</span>
+        </a>
+
+        <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+          <i class="bi bi-list fs-1 text-black"></i>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1 position-relative">
+          <ul class="navbar-nav mx-auto text-center position-absolute start-50">
+            <li class="nav-item-b px-2 py 2"><a href="landing_page.html" class="nav-link fs-5 fw-light">Home</a></li>
+            <li class="nav-item-b px-2 py 2"><a href="blog.html" class="nav-link fs-5 fw-light">Blog</a></li>
+            <li class="nav-item-b px-2 py 2"><a href="#" class="nav-link fs-5 fw-light">Support</a></li>
+            <li class="nav-item-b px-2 py 2"><a href="#" class="nav-link fs-5 fw-light">Log In</a></li>
+            <button type="button" class="btn nav-btn focus-ring fs-5 fw-light px-4" >
+              Get Access
+            </button>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container m-auto justify-content-center my-5 py-5">
+      <div class="row title text-black">
+        <h1 class="col-5 fw-bolder mx-auto mb-5">Data exported by Team Cloud organization administrators contained private files</h1>
+      </div>
+
+      <div class="template-user row align-content-center justify-content-center mx-auto">
+          <img src="../assets/img/Template/user1.png" class="col-2 p-0 img-fluid" style="max-width: 3rem;" alt="user image">
+        <p class="col-4 fw-light m-0 my-auto"> Mark Brooklyn | June 14, 2023</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center my-5">
+      <img src="../assets/img/Template/img-content.png" class="col-7 img-fluid" alt="image content">
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <p class="col-5 text-black">
+        Administrators of Team Cloud organizations can export public data from their organization via the organization settings menu. The exports include all the data that appears in public streams, and can be used to migrate from Team Cloud to self-hosting Team. Note that exporting private data is a separate process that requires contacting Team Support.<br><br>
+        Due to a bug in the public export code, exports of public data contained all uploaded files, even those from private messages and private streams. This may have allowed organization owners or administrators to extract uploaded files that they were not otherwise allowed to access. The content of non-public messages was never included in public exports. <br><br>
+        This bug has existed since the public export feature was implemented in August 2019. We have deleted all existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after 7 days in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release. <br><br>
+        We have notified by email all administrators and users in non-deactivated Team Cloud organizations who may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud users were not affected. <br><br>
+        We would like to thank Antoine Benoist for bringing this issue to our attention.
+      </p>
+    </div>
+
+    <div class="row justify-content-center w-50 mx-auto mb-lg-5">
+     <img src="../assets/img/Template/user1.png" class="col-3 img-fluid my-auto" style="max-width: 4rem; max-height: 3rem;" alt="user image">
+      <div class="writen-detail col-9">
+        <h3 class="fw-medium fs-6">WRITEN BY</h3>
+        <h2 class="text-black fs-4">Mark Brooklyn</h2>
+        <p class="fw-light text-black col-8">
+          COO at Team. Author of the upcoming book on Team Management and Leadership.
+        </p>
+      </div>
+    </div>
+
+    <hr class=" w-50 mx-auto">
+
+    <div class="row w-50 mx-auto justify-content-center">
+      <h6 class="text-black p-0">Join the Conversation</h6>
+      <div class="row justify-content-center my-5 gap-2">
+        <img src="../assets/img/Template/user2.png" class="col-lg-2 col-sm-12 img-fluid" style="max-width: 4rem; max-height: 3rem;" alt="user image">
+        <textarea class="col-lg-10 col-sm-12" name="comment" id="comment" cols="30" rows="8">Comments</textarea>
+      </div>
+    </div>
+    <!-- Js -->
+    <script type="module" src="../assets/js/index.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
